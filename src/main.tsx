@@ -6,7 +6,7 @@ import Settings from "./Settings.tsx";
 import Home from "./Home.tsx";
 import About from "./About.tsx";
 import Products from "./Products.tsx";
-//import Cart from "./Cart.tsx";
+import Cart from "./Cart.tsx";
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
