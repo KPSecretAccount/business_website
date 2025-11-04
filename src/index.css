@@ -1,7 +1,7 @@
 :root {
   font-family: "Times New Roman", serif;
   color: #213547;
-  background: #fff;
+  background: #fcf9f3;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,9 +12,12 @@ body {
   padding: 0;
 }
 
+h1{
+  color: #aa8b55;
+}
 nav {
   background: #2c3e50;
-  color: white;
+  color: #fdf6da;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,7 +44,7 @@ nav ul {
 nav button {
   background: none;
   border: none;
-  color: white;
+  color: #d0b38b;
   font-size: 15px;
   padding: 8px 12px;
   border-radius: 5px;

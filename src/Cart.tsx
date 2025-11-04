@@ -40,7 +40,6 @@ export default function Cart() {
                     <li><button onClick={() => navigate('/about')}>About</button></li>
                     <li><button onClick={() => navigate('/products')}>Products</button></li>
                     <li><button onClick={() => navigate('/cart')}>Cart</button></li>
-                    <li><button onClick={() => navigate('/settings')}>Settings</button></li>
                 </ul>
             </nav>
             <div className="page-content">
