@@ -5,6 +5,7 @@ interface Product {
     name: string;
     price: number;
     description: string;
+
 }
 
 const products: Product[] = [
@@ -34,11 +35,10 @@ export default function Products() {
     return (
         <div>
             <nav>
-                <button onClick={() => navigate('/')} className="title">
-                    <h1>Heritage Home Co</h1>
-                </button>
+                <button onClick={() => navigate('/')} className="title"><img src="logoname.png"/></button>
                 <ul>
-                    <li><button onClick={() => navigate('/about')}>About</button></li>
+                    <li>
+                        <button onClick={() => navigate('/about')}>About</button></li>
                     <li><button onClick={() => navigate('/products')}>Products</button></li>
                     <li><button onClick={() => navigate('/cart')}>Cart</button></li>
                 </ul>
@@ -51,6 +51,7 @@ export default function Products() {
                         <div key={product.id} className="product-card">
                             <h2>{product.name}</h2>
                             <p className="product-description">{product.description}</p>
+                            <img src = "house1.png"/>
                             <p className="product-price">${product.price.toLocaleString()}</p>
                             <button
                                 className="add-to-cart-btn"

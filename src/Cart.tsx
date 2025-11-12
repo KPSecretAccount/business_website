@@ -33,11 +33,10 @@ export default function Cart() {
     return (
         <div>
             <nav>
-                <button onClick={() => navigate('/')} className="title">
-                    <h1>Heritage Home Co</h1>
-                </button>
+                <button onClick={() => navigate('/')} className="title"><img src="logoname.png"/></button>
                 <ul>
-                    <li><button onClick={() => navigate('/about')}>About</button></li>
+                    <li>
+                        <button onClick={() => navigate('/about')}>About</button></li>
                     <li><button onClick={() => navigate('/products')}>Products</button></li>
                     <li><button onClick={() => navigate('/cart')}>Cart</button></li>
                 </ul>
