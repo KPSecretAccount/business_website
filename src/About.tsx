@@ -9,9 +9,6 @@ export default function About() {
                 <button onClick={() => navigate('/')} className="title"><img src="logoname.png"/></button>
                 <ul>
                     <li>
-                        <button onClick={() => navigate('/about')}>About</button>
-                    </li>
-                    <li>
                         <button onClick={() => navigate('/products')}>Products</button>
                     </li>
                     <li>
