@@ -24,6 +24,7 @@ export default function Home() {
                     blueprint. The result? Higher costs, unhealthy living environments and a harmful impact on our
                     planet. Heritage Home Co. fills this gap by designing the home YOU want – prioritizing the planet
                     and people, ultimately offering comfort, long term sustainability and peace of mind.</p>
+               <h1><br></br>About</h1>
                 <img src="found.png" alt="founder picture"/>
                 <h2>Michaela Aiello</h2>
                 <h3>CEO and Founder</h3>
