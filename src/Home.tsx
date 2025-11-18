@@ -9,6 +9,9 @@ export default function Home() {
                 <button onClick={() => navigate('/')} className="title"><img src="logoname.png"/></button>
                 <ul>
                     <li>
+                        <button onClick={() => navigate('/about')}>About</button>
+                    </li>
+                    <li>
                         <button onClick={() => navigate('/products')}>Products</button>
                     </li>
                     <li>
@@ -18,7 +21,7 @@ export default function Home() {
             </nav>
             <div className="page-content">
                 <div className="centerImg">
-                    <img src="logo.png" alt="Logo picture"/></div>
+                <img src="logo.png" alt="Logo picture"/></div>
                 <p>Many families want healthier, energy-efficient homes, but most houses on the market are built with
                     outdated methods that waste energy, compromise air quality and ultimately hurt our earth's
                     blueprint. The result? Higher costs, unhealthy living environments and a harmful impact on our
