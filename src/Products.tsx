@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router';
+
 
 interface Product {
     id: number;
@@ -24,7 +24,6 @@ const products: Product[] = [
 ];
 
 export default function Products() {
-    const navigate = useNavigate();
 
     const addToCart = (product: Product) => {
         const cart = JSON.parse(localStorage.getItem('cart') || '[]');
@@ -34,20 +33,6 @@ export default function Products() {
 
     return (
         <div>
-            <nav>
-                <button onClick={() => navigate('/')} className="title"><img src="logoname.png"/></button>
-                <ul>
-                    <li>
-                        <button onClick={() => navigate('/about')}>About</button>
-                    </li>
-                    <li>
-                        <button onClick={() => navigate('/products')}>Products</button>
-                    </li>
-                    <li>
-                        <button onClick={() => navigate('/cart')}>Cart</button>
-                    </li>
-                </ul>
-            </nav>
             <div className="page-content">
                 <h1>Our Products</h1>
                 <p>Sustainable home building solutions designed for the future.</p>

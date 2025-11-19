@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router';
 
 interface Product {
     id: number;
@@ -9,7 +8,6 @@ interface Product {
 }
 
 export default function Cart() {
-    const navigate = useNavigate();
     const [cartItems, setCartItems] = useState<Product[]>([]);
 
     useEffect(() => {
@@ -32,20 +30,6 @@ export default function Cart() {
 
     return (
         <div>
-            <nav>
-                <button onClick={() => navigate('/')} className="title"><img src="logoname.png"/></button>
-                <ul>
-                    <li>
-                        <button onClick={() => navigate('/about')}>About</button>
-                    </li>
-                    <li>
-                        <button onClick={() => navigate('/products')}>Products</button>
-                    </li>
-                    <li>
-                        <button onClick={() => navigate('/cart')}>Cart</button>
-                    </li>
-                </ul>
-            </nav>
             <div className="page-content">
                 <h1>Shopping Cart</h1>
                 {cartItems.length === 0 ? (
