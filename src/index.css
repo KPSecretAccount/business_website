@@ -49,6 +49,10 @@ nav button {
   padding: 8px 12px;
   border-radius: 5px;
 }
+nav button:hover {
+  background-color: #6b859f;
+}
+
 
 .page-content {
   max-width: 1200px;

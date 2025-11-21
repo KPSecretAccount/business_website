@@ -7,6 +7,7 @@ import About from "./About.tsx";
 import Products from "./Products.tsx";
 import Cart from "./Cart.tsx";
 
+// eslint-disable-next-line react-refresh/only-export-components
 function Layout() {
     const navigate = useNavigate();
 
